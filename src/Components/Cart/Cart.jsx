@@ -15,6 +15,7 @@ const Cart = ({cart}) => {
 
     return (
         <div className='cart'>
+            <p>hello world</p>
             <h3 className='heading'>Order Summery</h3>
             <p>Selected Items: {cart.length}</p>
             <p>totalPrice Price: ${totalPrice}</p>
